@@ -1,0 +1,21 @@
+{
+    "name": "Memo App",
+    "short_name": "MemoApp",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#007BFF",
+    "description": "A simple memo application to write, save, and download your notes.",
+    "icons": [
+        {
+            "src": "icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
