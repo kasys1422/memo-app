@@ -2,10 +2,9 @@ const CACHE_NAME = 'v1';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/styles.css',
-    '/script.js',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css',
-    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js'
+    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js',
+    '/icons'
 ];
 
 self.addEventListener('install', (event) => {
