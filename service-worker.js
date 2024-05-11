@@ -1,10 +1,13 @@
 const CACHE_NAME = 'v1';
 const urlsToCache = [
-    '/',
-    '/index.html',
+    '/memo-app/',
+    '/memo-app/index.html',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js',
-    '/icons'
+    '/memo-app/icons/icon-192x192.png',
+    '/memo-app/icons/icon-512x512.png',
+    '/memo-app/manifest.json',
+    '/memo-app/service-worker.js',
 ];
 
 self.addEventListener('install', (event) => {

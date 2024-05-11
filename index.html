@@ -46,7 +46,7 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+                navigator.serviceWorker.register('/memo-app/service-worker.js').then(function (registration) {
                     // 登録成功
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 }, function (err) {
